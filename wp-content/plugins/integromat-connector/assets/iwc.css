@@ -1,0 +1,665 @@
+/* Menu
+----------------------------------*/
+#adminmenu #toplevel_page_integromat > a .dashicons-before::before {
+    content: none;
+}
+
+#adminmenu #toplevel_page_integromat .wp-menu-image img {
+    width: 19px;
+}
+
+
+/* Main Content
+----------------------------------*/
+#imt-content-panel {
+    border: 1px solid #c5c5c5;
+    background-color: white;
+    padding: 30px;
+    margin-right: 20px;
+}
+#imt-content-panel section {
+    margin-bottom: 30px;
+}
+#imt-content-panel input[type="checkbox"] {
+    margin-top: 0px;
+}
+
+.integromat_api_row td, .integromat_api_row th {
+    padding: 5px 0 !important;
+}
+
+.integromat_api_row th {
+    min-width: 250px;
+}
+
+.integromat_api_row h3 {
+    margin: 30px 0 0;
+}
+
+.integromat_api_row p.desc {
+    font-weight: normal;
+    margin: 5px 0;
+}
+
+.imapie_settings_container.wait {
+    filter: opacity(20%);
+}
+
+.imapie_settings_container.wait * {
+    cursor: wait;
+}
+
+.nav-tab-wrapper {
+    border-bottom: 1px solid #ccd0d4;
+    padding-left: 10px;
+    position: relative;
+    z-index: 10;
+    background: #fff;
+    overflow: hidden; 
+    /* Ensures tabs don't wrap unexpectedly */
+}
+
+.nav-tab {
+    background: #f1f1f1;
+    border: 1px solid #ccd0d4;
+    border-bottom: none;
+    color: #555;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 1.71428571;
+    margin: 0 5px -1px 0;
+    padding: 8px 12px;
+    text-decoration: none;
+    white-space: nowrap;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    position: relative;
+    vertical-align: top;
+}
+
+.nav-tab:hover {
+    background-color: #fff;
+    color: #444;
+    text-decoration: none;
+    border-color: #999;
+}
+
+.nav-tab-active,
+.nav-tab-active:hover {
+    background-color: #fff;
+    border-bottom: 1px solid #fff;
+    color: #000;
+    font-weight: 600;
+    position: relative;
+    z-index: 11;
+    border-color: #ccd0d4;
+}
+
+.iwc-tab-content {
+    display: none;
+    padding: 15px 0 0;
+    position: relative;
+    z-index: 1;
+}
+
+.iwc-tab-content.iwc-tab-active {
+    display: block;
+    animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+/* Ensure consistent styling between General Settings and Custom Fields */
+.imapie_settings_container {
+    max-width: none;
+}
+
+.imapie_settings_container .form-table {
+    margin-top: 20px;
+}
+
+.imapie_settings_container .form-table th {
+    width: 200px;
+    min-width: 200px;
+}
+
+.imapie_settings_container .form-table td {
+    padding: 20px 0;
+}
+
+.imapie_settings_container h3 {
+    color: #23282d;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 30px 0 10px;
+    padding: 0;
+}
+
+.imapie_settings_container p.desc,
+.imapie_settings_container .description {
+    color: #666;
+    font-style: italic;
+    margin: 5px 0 0;
+}
+
+.imapie_settings_container p.submit {
+    margin: 20px 0 0;
+    padding: 0;
+}
+
+/* Consistent form element styling */
+.imapie_settings_container select,
+.imapie_settings_container input[type="text"],
+.imapie_settings_container input[type="number"],
+.imapie_settings_container input[type="email"],
+.imapie_settings_container textarea {
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    padding: 6px 8px;
+    font-size: 14px;
+    line-height: 1.4;
+    background-color: #fff;
+    color: #32373c;
+    box-shadow: inset 0 1px 2px rgba(0,0,0,.07);
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.imapie_settings_container select:focus,
+.imapie_settings_container input[type="text"]:focus,
+.imapie_settings_container input[type="number"]:focus,
+.imapie_settings_container input[type="email"]:focus,
+.imapie_settings_container textarea:focus {
+    border-color: #0073aa;
+    box-shadow: 0 0 0 1px #0073aa;
+    outline: none;
+}
+
+.imapie_settings_container input[type="checkbox"] {
+    margin: 0 4px 0 0;
+    vertical-align: middle;
+}
+
+.imapie_settings_container label {
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+/* API Permissions specific styling to match General Settings */
+.iwc-permissions-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    border: 1px solid #ddd;
+    padding: 15px;
+    background: #f9f9f9;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+
+.iwc-permission-group h4 {
+    margin: 0 0 8px 0;
+    font-size: 13px;
+    font-weight: 600;
+    color: #23282d;
+}
+
+.iwc-permission-group label {
+    display: block;
+    margin-bottom: 4px;
+    font-size: 12px;
+    color: #555;
+}
+
+.iwc-permission-group input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+/* Buttons consistency */
+.imapie_settings_container .button {
+    border: 1px solid #0073aa;
+    border-radius: 3px;
+    text-decoration: none;
+    text-shadow: none;
+    font-size: 13px;
+    line-height: 2.15384615;
+    min-height: 30px;
+    margin: 0;
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+/* Notices styling for consistency */
+.imapie_settings_container .notice {
+    margin: 15px 0;
+    padding: 10px;
+    border-radius: 3px;
+    border-left: 4px solid;
+}
+
+.imapie_settings_container .notice-info {
+    background: #e7f3ff;
+    border-left-color: #0073aa;
+    color: #0c4a6e;
+}
+
+.imapie_settings_container .notice-warning {
+    background: #fff3cd;
+    border-left-color: #ffb900;
+    color: #8b4513;
+}
+
+.imapie_settings_container .notice-error {
+    background: #f8d7da;
+    border-left-color: #d63638;
+    color: #721c24;
+}
+
+.imapie_settings_container .notice-success {
+    background: #d4edda;
+    border-left-color: #46b450;
+    color: #155724;
+}
+
+/* Accessibility and Form Validation Improvements */
+.error {
+    border-color: #d63638 !important;
+    box-shadow: 0 0 2px rgba(214, 54, 56, 0.5);
+}
+
+.error:focus {
+    border-color: #d63638 !important;
+    outline: 2px solid #d63638;
+    outline-offset: 1px;
+}
+
+/* Focus states for better accessibility */
+input[type="checkbox"]:focus,
+input[type="text"]:focus,
+select:focus,
+textarea:focus {
+    outline: 2px solid #0073aa;
+    outline-offset: 1px;
+}
+
+/* High contrast mode support */
+@media (prefers-contrast: high) {
+    .uncheck_all {
+        text-decoration: underline;
+        font-weight: bold;
+    }
+    
+    .error {
+        border-width: 2px;
+    }
+}
+
+/* API Key Management Styles */
+.iwc-api-key-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+/* API Key revealed state styling */
+#iwc-api-key-value[data-state="revealed"] {
+    background-color: #fff3cd;
+    border-color: #ffeaa7;
+    box-shadow: 0 0 0 1px #ffeaa7;
+}
+
+/* Countdown indicator for auto-hide */
+.iwc-countdown {
+    font-size: 12px;
+    color: #666;
+    margin-left: 10px;
+    font-style: italic;
+}
+
+/* Log Actions Styles */
+.iwc-log-actions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+/* Modal Styles for Regenerate Confirmation */
+.iwc-modal {
+    display: none;
+    position: fixed;
+    z-index: 100000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(2px);
+}
+
+.iwc-modal-content {
+    background-color: #fff;
+    margin: 5% auto;
+    padding: 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 90%;
+    max-width: 600px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    animation: iwc-modal-appear 0.3s ease-out;
+}
+
+@keyframes iwc-modal-appear {
+    from {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.iwc-modal-header {
+    background-color: #fcf2f2;
+    padding: 15px 20px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 4px 4px 0 0;
+}
+
+.iwc-modal-header h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #d63638;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.iwc-modal-header h3:before {
+    content: "⚠️";
+    font-size: 20px;
+}
+
+.iwc-modal-close {
+    font-size: 24px;
+    font-weight: bold;
+    color: #999;
+    cursor: pointer;
+    line-height: 1;
+    transition: color 0.2s ease;
+}
+
+.iwc-modal-close:hover {
+    color: #333;
+}
+
+.iwc-modal-body {
+    padding: 20px;
+}
+
+.iwc-warning-box {
+    background-color: #fff3cd;
+    border: 1px solid #ffeaa7;
+    border-radius: 4px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.iwc-warning-box strong {
+    color: #856404;
+}
+
+.iwc-form-group {
+    margin-bottom: 15px;
+}
+
+.iwc-form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+.iwc-checkbox-group {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    margin-bottom: 15px;
+}
+
+.iwc-checkbox-group input[type="checkbox"] {
+    margin-top: 3px;
+}
+
+.iwc-checkbox-group label {
+    margin-bottom: 0;
+    font-weight: normal;
+    cursor: pointer;
+}
+
+.iwc-form-group input[type="text"] {
+    width: 100%;
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    font-size: 14px;
+    transition: border-color 0.2s ease;
+}
+
+.iwc-form-group input[type="text"]:focus {
+    outline: none;
+    border-color: #0073aa;
+    box-shadow: 0 0 0 1px #0073aa;
+}
+
+.iwc-form-actions {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+    padding-top: 15px;
+    border-top: 1px solid #ddd;
+}
+
+.iwc-form-actions .button {
+    min-width: 100px;
+}
+
+.iwc-confirm-btn {
+    border-color: #d63638 !important;
+    color: #d63638 !important;
+}
+
+.iwc-confirm-btn:hover:not(:disabled) {
+    background-color: #d63638;
+    color: white !important;
+}
+
+.iwc-confirm-btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    .iwc-api-key-container {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+    }
+    
+    .iwc-api-key-container input {
+        width: 100%;
+        margin-bottom: 8px;
+    }
+    
+    .iwc-modal-content {
+        margin: 2% auto;
+        width: 95%;
+    }
+    
+    .iwc-form-actions {
+        flex-direction: column-reverse;
+    }
+    
+    .iwc-form-actions .button {
+        width: 100%;
+        min-width: auto;
+    }
+    
+    /* Tab responsive design */
+    .nav-tab-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2px;
+        margin-bottom: 15px;
+    }
+    
+    .nav-tab {
+        flex: 1;
+        text-align: center;
+        min-width: 80px;
+        font-size: 12px;
+        padding: 6px 8px;
+    }
+    
+    #imt-content-panel {
+        padding: 15px;
+        margin-right: 10px;
+    }
+    
+    .imapie_settings_container .form-table th {
+        width: auto;
+        min-width: auto;
+        display: block;
+        padding-bottom: 5px;
+    }
+    
+    .imapie_settings_container .form-table td {
+        display: block;
+        padding: 5px 0 15px;
+    }
+    
+    .iwc-permissions-grid {
+        grid-template-columns: 1fr;
+        gap: 10px;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 782px) {
+    .nav-tab {
+        font-size: 12px;
+        padding: 6px 10px;
+    }
+    
+    .integromat_api_row th {
+        min-width: auto;
+        width: auto;
+    }
+}
+
+/* Success/Error Messages */
+.iwc-message {
+    padding: 10px 15px;
+    margin: 15px 0;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.iwc-message.success {
+    background-color: #d4edda;
+    border: 1px solid #c3e6cb;
+    color: #155724;
+}
+
+.iwc-message.error {
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+    color: #721c24;
+}
+
+/* Tab-specific messages that appear after Save Settings button */
+.iwc-tab-message {
+    margin: 15px 0 0;
+    padding: 10px 12px;
+    border-left: 4px solid;
+    background: #fff;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+}
+
+.iwc-tab-message.notice-success {
+    border-left-color: #46b450;
+    background: #d4edda;
+}
+
+/* Simple messages for non-tabbed forms like Custom Taxonomies */
+.iwc-simple-message {
+    margin: 15px 0 0;
+    padding: 10px 12px;
+    border-left: 4px solid;
+    background: #fff;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+    border-radius: 0 3px 3px 0;
+}
+
+.iwc-simple-message.notice-success {
+    border-left-color: #46b450;
+    background: #d4edda;
+    color: #155724;
+}
+
+.iwc-simple-message.notice-error {
+    border-left-color: #d63638;
+    background: #f8d7da;
+    color: #721c24;
+}
+
+.iwc-simple-message.notice-warning {
+    border-left-color: #ffb900;
+    background: #fff3cd;
+    color: #8b4513;
+}
+
+.iwc-simple-message.notice-info {
+    border-left-color: #0073aa;
+    background: #e7f3ff;
+    color: #0c4a6e;
+}
+
+.iwc-tab-message.notice-error {
+    border-left-color: #d63638;
+    background: #f8d7da;
+}
+
+.iwc-tab-message p {
+    margin: 0;
+    font-weight: 600;
+}
+
+.uncheck_all {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+/* Helpers
+----------------------------------*/
+.imapie_settings_container .w-200 {
+    width: 200px
+}
+
+.imapie_settings_container .w-300 {
+    width: 300px
+}
+
+.imapie_settings_container .iwc-comment {
+    font-style: italic;
+    color: #a8a8a8;
+}
