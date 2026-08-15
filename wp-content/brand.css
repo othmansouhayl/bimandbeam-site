@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap');
+
+:root{
+  --bb-black:#0a0a0a;
+  --bb-black-soft:#111111;
+  --bb-green:#22C55E;
+  --bb-green-dim:#15803D;
+  --bb-white:#ffffff;
+  --bb-gray:#9a9a9a;
+}
+
+body, p, li, a, span, div{
+  font-family:'Inter', sans-serif;
+}
+h1, h2, h3, h4, .kt-adv-heading, .entry-title{
+  font-family:'Space Grotesk', sans-serif !important;
+}
+.bb-mono{
+  font-family:'JetBrains Mono', monospace;
+}
+
+a{ transition: color .2s ease, opacity .2s ease, transform .2s ease; }
+button, .kb-button, .kt-button{ transition: all .25s ease; }
+.kb-button:hover, .kt-button:hover{ transform: translateY(-2px); }
+img{ transition: transform .4s ease; }
+
+/* header / nav restyle */
+.site-header-row-container-inner,
+.site-main-header-wrap,
+.site-header,
+#masthead{
+  background:var(--bb-black) !important;
+}
+.main-navigation .primary-menu-container > ul > li.menu-item > a,
+.site-header a,
+.site-header .menu-item a{
+  color:var(--bb-white) !important;
+  font-family:'JetBrains Mono', monospace !important;
+  font-size:12px !important;
+  letter-spacing:0.5px;
+}
+.main-navigation .primary-menu-container > ul > li.menu-item > a:hover{
+  color:var(--bb-green) !important;
+}
+.header-navigation .header-menu-container ul ul.sub-menu{
+  background:var(--bb-black-soft) !important;
+}
+
+/* hide old raster logo, JS injects text wordmark instead */
+.custom-logo{ display:none !important; }
+.brand.has-logo-image{ display:flex; align-items:center; }
+.bb-wordmark{
+  font-family:'Space Grotesk', sans-serif;
+  font-weight:700;
+  font-size:20px;
+  color:var(--bb-white);
+  letter-spacing:-0.5px;
+  text-decoration:none;
+}
+.bb-wordmark span{ color:var(--bb-green); }
+
+/* footer restyle */
+.site-footer, #colophon, .site-footer-row-container-inner{
+  background:var(--bb-black) !important;
+}
+.site-footer, .site-footer a, .footer-html-inner p{
+  color:var(--bb-gray) !important;
+  font-family:'JetBrains Mono', monospace !important;
+  font-size:12px !important;
+}
+.site-footer a{ color:var(--bb-green) !important; }
+
+/* scroll fade-in */
+.bb-fade{ opacity:0; transform:translateY(16px); transition:opacity .6s ease, transform .6s ease; }
+.bb-fade.bb-visible{ opacity:1; transform:translateY(0); }
+
+::selection{ background:var(--bb-green); color:var(--bb-black); }
