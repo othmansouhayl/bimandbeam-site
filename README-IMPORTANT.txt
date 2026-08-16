@@ -1,4 +1,6 @@
-NOTE: gumroad.js overlay script was added to ALL 262 pages site-wide.
-This patch only includes 3 changed files for size reasons: index.html, the checklist cover image, and the revit-best-practices post.
+This patch fixes 3 things from your last push:
+1. Checklist cover image replaced with your actual artwork (was a wrong placeholder)
+2. Removed the Gumroad overlay widget - it was hanging with a broken loading spinner. Buttons now just open Gumroad in a new tab: simple and reliable.
+3. Removed the "24.99" price from the button text so it won't go stale if pricing changes.
 
-If you want the gumroad overlay script on ALL your other blog pages too (recommended, future-proofs any lead magnet links), let me know and I will send the full site zip instead.
+This replaces the 3 files from your last patch (index.html, the checklist cover, and the revit-best-practices post) - just overwrite them again.
