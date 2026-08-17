@@ -6,19 +6,25 @@
 <title>Data Center Tiers Explained: Tier I, II, III, IV — BIM and Beam</title>
 <meta name="description" content="A client says 'I want Tier III.' What does that actually change for the building? Tiers, N, N+1, and 2N redundancy explained for architects and engineers."/>
 <link rel="canonical" href="https://bimandbeam.com/2026/08/data-center-tiers-explained/"/>
-<link rel="icon" href="./../../../wp-content/uploads/2024/10/cropped-1-1.png"/>
+<link rel="icon" href="./../../../wp-content/uploads/2026/08/favicon-32.png"/>
 <link rel="stylesheet" href="./../../../wp-content/brand.css"/>
 <style>
 *{box-sizing:border-box;}
 body{margin:0;background:#0a0a0a;color:#ffffff;font-family:'Inter',sans-serif;}
 .bb-nav{position:sticky;top:0;z-index:50;background:rgba(10,10,10,0.9);backdrop-filter:blur(8px);border-bottom:0.5px solid #222;}
-.bb-nav-inner{display:flex;align-items:center;justify-content:space-between;padding:18px 24px;max-width:1100px;margin:0 auto;}
+.bb-nav-inner{position:relative;display:flex;align-items:center;justify-content:space-between;padding:18px 24px;max-width:1100px;margin:0 auto;}
 .bb-logo{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:19px;color:#fff;text-decoration:none;letter-spacing:-0.3px;}
 .bb-logo span{color:#22C55E;}
 .bb-links{display:flex;gap:28px;list-style:none;margin:0;padding:0;}
 .bb-links a{font-family:'JetBrains Mono',monospace;font-size:12px;letter-spacing:0.5px;color:#cfcfcf;text-decoration:none;text-transform:uppercase;}
 .bb-links a:hover{color:#22C55E;}
-@media (max-width:720px){.bb-links{display:none;}}
+.bb-menu-btn{display:none;background:none;border:none;color:#fff;font-size:22px;cursor:pointer;line-height:1;padding:4px 8px;}
+.bb-menu-btn:active{transform:scale(0.92);}
+@media (max-width:720px){
+  .bb-links{display:none;}
+  .bb-links.bb-links-open{display:flex;flex-direction:column;position:absolute;top:100%;left:0;right:0;background:#0a0a0a;border-bottom:0.5px solid #222;padding:12px 24px 20px;gap:16px;}
+  .bb-menu-btn{display:block;}
+}
 
 .post-hero{max-width:760px;margin:0 auto;padding:70px 24px 30px;}
 .eyebrow{font-family:'JetBrains Mono',monospace;font-size:12px;color:#22C55E;letter-spacing:1.5px;text-transform:uppercase;margin-bottom:16px;}
@@ -67,8 +73,9 @@ body{margin:0;background:#0a0a0a;color:#ffffff;font-family:'Inter',sans-serif;}
 <li><a href="./../../../index.html">Home</a></li>
 <li><a href="./../../../blog/index.html">Blog</a></li>
 <li><a href="./../../../index.html#book">Book</a></li>
-<li><a href="./../../../contact/index.html">Contact</a></li>
+<li><a href="https://www.linkedin.com/in/souhayl-othman/" target="_blank" rel="noopener">Contact</a></li>
 </ul>
+<button aria-label="Menu" class="bb-menu-btn">☰</button>
 </div>
 </nav>
 
@@ -130,7 +137,7 @@ body{margin:0;background:#0a0a0a;color:#ffffff;font-family:'Inter',sans-serif;}
 
 <footer class="bb-footer">
 <div class="bb-footer-inner">
-<p>© 2026 bim&amp;beam — built by <a href="https://www.linkedin.com/in/souhayl-othman/">Souhayl Othman</a></p>
+<p>© 2026 bim&amp;beam — built by <a href="https://www.linkedin.com/in/souhayl-othman/" target="_blank" rel="noopener">Souhayl Othman</a></p>
 </div>
 </footer>
 
