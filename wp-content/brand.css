@@ -139,4 +139,4 @@ img{ opacity:0.96; }
 .bb-post-cta-text .bb-cta-label{font-family:'JetBrains Mono',monospace;font-size:11px;color:#22C55E;text-transform:uppercase;letter-spacing:1px;margin-bottom:6px;}
 .bb-post-cta-text h4{font-family:'Space Grotesk',sans-serif;color:#fff;font-size:17px;margin:0 0 8px;}
 .bb-post-cta-text p{color:#a8a8a8;font-size:13.5px;margin:0 0 14px;line-height:1.6;}
-.bb-post-cta-btn{font-family:'Inter',sans-serif;font-weight:600;font-size:13px;padding:10px 20px;border-radius:6px;text-decoration:none;display:inline-block;background:#22C55E;color:#0a0a0a;}
+.bb-post-cta-btn{font-family:'Inter',sans-serif;font-weight:600;font-size:13px;padding:10px 20px;border-radius:6px;text-decoration:none;display:inline-block;background:#22C55E;color:#0a0a0a !important;}

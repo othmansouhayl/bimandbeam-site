@@ -1,14 +1,8 @@
-Two new blog posts, drafted from your book "Inside a Data Center":
+Fixes the invisible CTA button text bug: the green "Get the free preview" /
+"Get the checklist" buttons inside article content had black text hidden
+behind a more specific green-link rule from the dark-theme override. Fixed
+with a targeted !important on the button's own color rule.
 
-1. What is PUE? The data center efficiency metric everyone argues about
-2. Data center tiers explained: Tier I, II, III and IV
-
-Both:
-- Use the new dark brand template (fonts, colors, transitions)
-- End with a "Get the free preview" CTA linking to your book on Gumroad
-- Use illustrations pulled directly from the book as hero images
-- Are added to the homepage "Latest posts" grid
-- Are added to the top of your /blog listing page
-
-Deploy: unzip, copy contents into your repo (this will add the 2 new post folders,
-update index.html, and update blog/index.html), commit, push.
+This patch only touches wp-content/brand.css - just overwrite that one file
+in your repo, commit, push. Affects every article page since they all share
+this single stylesheet.
