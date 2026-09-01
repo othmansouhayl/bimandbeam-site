@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>What Is a Data Center Architect? Roles, Salary &amp; How to Become One (2026) — BIM and Beam</title>
+<meta name="description" content="'Data center architect' is actually two different jobs sharing one title — an IT/cloud role and a building-design role. Here's how to tell them apart, what each pays, and how to break in."/>
+<link rel="canonical" href="https://bimandbeam.com/2026/09/what-is-a-data-center-architect/"/>
+<link rel="icon" href="./../../../wp-content/uploads/2026/08/favicon-32.png"/>
+<link rel="stylesheet" href="./../../../wp-content/brand.css"/>
+<style>
+*{box-sizing:border-box;}
+body{margin:0;background:#0a0a0a;color:#ffffff;font-family:'Inter',sans-serif;}
+.bb-nav{position:sticky;top:0;z-index:50;background:rgba(10,10,10,0.9);backdrop-filter:blur(8px);border-bottom:0.5px solid #222;}
+.bb-nav-inner{position:relative;display:flex;align-items:center;justify-content:space-between;padding:18px 24px;max-width:1100px;margin:0 auto;}
+.bb-logo{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:19px;color:#fff;text-decoration:none;letter-spacing:-0.3px;}
+.bb-logo span{color:#22C55E;}
+.bb-links{display:flex;gap:28px;list-style:none;margin:0;padding:0;}
+.bb-links a{font-family:'JetBrains Mono',monospace;font-size:12px;letter-spacing:0.5px;color:#cfcfcf;text-decoration:none;text-transform:uppercase;}
+.bb-links a:hover{color:#22C55E;}
+.bb-menu-btn{display:none;background:none;border:none;color:#fff;font-size:22px;cursor:pointer;line-height:1;padding:4px 8px;}
+.bb-menu-btn:active{transform:scale(0.92);}
+@media (max-width:720px){
+  .bb-links{display:none;}
+  .bb-links.bb-links-open{display:flex;flex-direction:column;position:absolute;top:100%;left:0;right:0;background:#0a0a0a;border-bottom:0.5px solid #222;padding:12px 24px 20px;gap:16px;}
+  .bb-menu-btn{display:block;}
+}
+
+.post-hero{max-width:820px;margin:0 auto;padding:64px 24px 30px;}
+.eyebrow{font-family:'JetBrains Mono',monospace;font-size:12px;color:#22C55E;letter-spacing:1.5px;text-transform:uppercase;margin-bottom:16px;}
+.post-hero h1{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:clamp(30px,5vw,46px);line-height:1.12;margin:0 0 18px;}
+.post-meta{font-family:'JetBrains Mono',monospace;font-size:12px;color:#888;}
+.post-hero p.lede{font-size:18px;color:#b8b8b8;line-height:1.7;margin-top:22px;}
+
+.post-img{max-width:960px;margin:20px auto 0;padding:0 24px;}
+.post-img img{width:100%;border-radius:10px;display:block;}
+.post-img .cap{font-family:'JetBrains Mono',monospace;font-size:11px;color:#666;text-align:center;margin-top:10px;}
+
+.post-body{max-width:720px;margin:0 auto;padding:40px 24px 20px;font-size:17px;line-height:1.8;color:#d4d4d4;}
+.post-body p{margin:0 0 22px;}
+.post-body h2{font-family:'Space Grotesk',sans-serif;color:#fff;font-size:27px;margin:52px 0 18px;}
+.post-body h3{font-family:'Space Grotesk',sans-serif;color:#fff;font-size:19px;margin:32px 0 14px;}
+.post-body strong{color:#fff;}
+.post-body ul,.post-body ol{padding-left:22px;margin:0 0 22px;}
+.post-body li{margin-bottom:8px;}
+.toc{background:#0d0d0d;border:0.5px solid #1e1e1e;border-radius:10px;padding:24px 28px;margin:32px 0;}
+.toc-label{font-family:'JetBrains Mono',monospace;font-size:11px;color:#22C55E;text-transform:uppercase;letter-spacing:1px;margin-bottom:14px;}
+.toc ol{margin:0;padding-left:20px;}
+.toc a{color:#d4d4d4;text-decoration:none;font-size:14.5px;line-height:2;}
+.toc a:hover{color:#22C55E;}
+
+.callout{border-left:2px solid #22C55E;padding:4px 0 4px 20px;margin:28px 0;color:#a8a8a8;font-style:italic;}
+.callout .label{font-family:'JetBrains Mono',monospace;font-style:normal;font-size:11px;color:#22C55E;text-transform:uppercase;letter-spacing:1px;display:block;margin-bottom:8px;}
+.takeaway{background:#111;border:1px solid #22C55E;border-radius:8px;padding:20px 24px;margin:32px 0;}
+.takeaway .label{display:flex;align-items:center;gap:8px;font-family:'JetBrains Mono',monospace;font-size:11px;color:#22C55E;text-transform:uppercase;letter-spacing:1px;margin-bottom:10px;}
+.takeaway .dot{width:8px;height:8px;background:#22C55E;border-radius:2px;}
+.takeaway p{margin:0;color:#fff;font-weight:600;font-size:15.5px;}
+
+table.dt{width:100%;border-collapse:collapse;margin:28px 0;font-size:14px;}
+table.dt th{font-family:'JetBrains Mono',monospace;font-size:10.5px;text-transform:uppercase;letter-spacing:0.5px;color:#22C55E;text-align:left;padding:10px 12px;border-bottom:1px solid #333;}
+table.dt td{padding:12px;border-bottom:1px solid #1e1e1e;color:#d4d4d4;vertical-align:top;}
+table.dt td:first-child{color:#fff;font-weight:600;white-space:nowrap;}
+table.dt.two-col th:first-child, table.dt.two-col td:first-child{width:50%;}
+
+.book-cta{max-width:720px;margin:50px auto 30px;padding:0 24px;}
+.book-cta-inner{background:#0d0d0d;border:0.5px solid #1e1e1e;border-radius:12px;padding:32px;display:flex;gap:24px;align-items:center;flex-wrap:wrap;}
+.book-cta-inner img{width:90px;border-radius:6px;flex-shrink:0;}
+.book-cta-text{flex:1;min-width:220px;}
+.book-cta-text .label{font-family:'JetBrains Mono',monospace;font-size:11px;color:#22C55E;text-transform:uppercase;letter-spacing:1px;margin-bottom:6px;}
+.book-cta-text h3{font-family:'Space Grotesk',sans-serif;color:#fff;font-size:18px;margin:0 0 8px;}
+.book-cta-text p{color:#a8a8a8;font-size:13.5px;margin:0 0 14px;line-height:1.6;}
+.bb-btn{font-family:'Inter',sans-serif;font-weight:600;font-size:13px;padding:10px 20px;border-radius:6px;text-decoration:none;display:inline-block;background:#22C55E;color:#0a0a0a !important;}
+
+.related{max-width:720px;margin:0 auto 60px;padding:0 24px;}
+.related a{display:block;background:#0d0d0d;border:0.5px solid #1e1e1e;border-radius:10px;padding:18px 22px;text-decoration:none;margin-bottom:12px;transition:border-color .2s ease;}
+.related a:hover{border-color:#22C55E;}
+.related .rel-label{font-family:'JetBrains Mono',monospace;font-size:10.5px;color:#22C55E;text-transform:uppercase;letter-spacing:1px;margin-bottom:4px;}
+.related .rel-title{color:#fff;font-family:'Space Grotesk',sans-serif;font-size:15.5px;}
+
+.bb-footer{border-top:0.5px solid #1a1a1a;padding:40px 24px;background:#0a0a0a;}
+.bb-footer-inner{max-width:1100px;margin:0 auto;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:16px;}
+.bb-footer p, .bb-footer a{font-family:'JetBrains Mono',monospace;font-size:12px;color:#777;text-decoration:none;}
+.bb-footer a:hover{color:#22C55E;}
+</style>
+</head>
+<body>
+
+<nav class="bb-nav">
+<div class="bb-nav-inner">
+<a class="bb-logo" href="./../../../index.html">bim<span>&amp;</span>beam</a>
+<ul class="bb-links">
+<li><a href="./../../../index.html">Home</a></li>
+<li><a href="./../../../blog/index.html">Blog</a></li>
+<li><a href="./../../../index.html#book">Book</a></li>
+</ul>
+<button aria-label="Menu" class="bb-menu-btn">☰</button>
+</div>
+</nav>
+
+<article>
+<div class="post-hero">
+<div class="eyebrow">Careers · Data Centers</div>
+<h1>What Is a Data Center Architect? Roles, Salary &amp; How to Become One</h1>
+<div class="post-meta">By Souhayl Othman · September 2026 · 12 min read</div>
+<p class="lede">Search this job title and you'll find two completely different career paths hiding under one name — and mixing them up is the single biggest reason people waste months preparing for the wrong one.</p>
+</div>
+
+<div class="post-img">
+<img alt="Two silhouettes: one working at a server terminal, one holding a hard hat in front of a building blueprint, split by a green line" src="./../../../wp-content/uploads/2026/09/hero-two-paths.jpg"/>
+<div class="cap">"Data center architect" — same title, two very different jobs.</div>
+</div>
+
+<div class="post-body">
+
+<div class="toc">
+<div class="toc-label">On this page</div>
+<ol>
+<li><a href="#two-jobs">The two jobs hiding under one title</a></li>
+<li><a href="#it-side">What the IT/Solutions Architect does</a></li>
+<li><a href="#building-side">What the Building/Facility Architect does</a></li>
+<li><a href="#skills">Skills and qualifications for each path</a></li>
+<li><a href="#certifications">Certifications that actually matter</a></li>
+<li><a href="#cast">The rest of the cast — who else builds a data center</a></li>
+<li><a href="#salary">Salary snapshot</a></li>
+<li><a href="#breaking-in">How to actually break in from AEC/BIM</a></li>
+</ol>
+</div>
+
+<p>Two job postings, same title: "Data Center Architect." One wants AWS certifications, Python, and five years of network engineering. The other wants a professional architecture license, Revit fluency, and experience with MEP coordination. Neither posting is wrong — they're describing two different jobs that happen to share a name, and almost nothing written about this career bothers to separate them.</p>
+
+<p>That confusion costs people real time. If you spend six months studying cloud infrastructure for a role that actually wanted a licensed building designer — or vice versa — you've prepared for the wrong interview. This guide untangles the two paths, what each actually pays, and how to get into either one.</p>
+
+<h2 id="two-jobs">The two jobs hiding under one title</h2>
+
+<table class="dt">
+<tr><th>&nbsp;</th><th>IT / Solutions Architect</th><th>Building / Facility Architect</th></tr>
+<tr><td>Designs</td><td>The digital infrastructure — servers, network, storage, cloud topology</td><td>The physical building — structure, power routing, cooling, life safety</td></tr>
+<tr><td>Typical background</td><td>Computer science, IT, networking</td><td>Architecture or engineering degree, licensure</td></tr>
+<tr><td>Core tools</td><td>Cloud platforms (AWS, Azure, GCP), network diagrams</td><td>Revit, BIM coordination, CAD, code compliance</td></tr>
+<tr><td>Typical employer</td><td>Hyperscalers (AWS, Google, Microsoft, Meta), IT consultancies</td><td>AEC firms, developers, specialized operators</td></tr>
+<tr><td>Question they answer</td><td>"How do we route and scale the workload?"</td><td>"How do we power, cool, and physically house it?"</td></tr>
+</table>
+
+<div class="callout"><span class="label">Why this matters</span>Every major search result for "data center architect jobs" blends both roles together. The job market doesn't make this distinction obvious — you have to.</div>
+
+<h2 id="it-side">What the IT/Solutions Architect does day to day</h2>
+<p>This is the more common usage of the title, especially at large tech companies. The role centers on designing and expanding the cloud and IT infrastructure that lives <em>inside</em> the building — not the building itself. Day to day, that means:</p>
+<ul>
+<li>Performing infrastructure design, strategy, and services across compute, storage, and network layers</li>
+<li>Defining server, storage, and network architecture, including virtualization and automation</li>
+<li>Researching new technologies, evaluating vendors, and integrating hybrid or multi-cloud solutions</li>
+<li>Leading migration, deployment, and scaling of workloads across the infrastructure</li>
+<li>Working cross-functionally with security, operations, and product teams to keep everything running</li>
+</ul>
+<p>If a job description mentions Kubernetes, hyperconverged infrastructure, SDN, or workload balancing — you're looking at this track.</p>
+
+<h2 id="building-side">What the Building/Facility Architect does day to day</h2>
+<p>This is the smaller, more specialized track — and it's the one this site and <em>Inside a Data Center</em> are built around. A data center is a building type most architects never train for, and the role brings together disciplines that rarely sit in the same room:</p>
+<ul>
+<li>Site selection and evaluating power/utility availability before a single drawing exists</li>
+<li>Coordinating structural, electrical, and mechanical systems around a building whose real client is a server room, not a person</li>
+<li>Designing for Tier and redundancy requirements set by the client (N, N+1, 2N — this determines a huge share of the floor plan)</li>
+<li>Planning cooling strategy in coordination with mechanical engineers, since it drives both the building envelope and the site's PUE</li>
+<li>Running BIM coordination across every discipline, since clash detection matters enormously more here than in a typical building</li>
+<li>Navigating fire, life-safety, and security requirements specific to critical infrastructure</li>
+</ul>
+<div class="callout"><span class="label">Architect's perspective</span>On a typical project, the architect leads. On a data center, they're one voice among highly technical specialists — and they only earn their seat at the table by speaking the vocabulary fluently: PUE, Tier, redundancy, IT hall. That's exactly the gap this site exists to close.</div>
+
+<h2 id="skills">Skills and qualifications for each path</h2>
+<table class="dt two-col">
+<tr><th>IT / Solutions track</th><th>Building / Facility track</th></tr>
+<tr><td>Cloud platforms: AWS, Azure, Google Cloud</td><td>BIM proficiency, especially Revit</td></tr>
+<tr><td>Networking fundamentals and protocols</td><td>MEP systems coordination</td></tr>
+<tr><td>Virtualization and containerization</td><td>Understanding of Tier classification and redundancy (N, N+1, 2N)</td></tr>
+<tr><td>Scripting/automation (Python, Terraform)</td><td>Code compliance for critical-infrastructure buildings</td></tr>
+<tr><td>Degree: computer science, IT, or equivalent experience</td><td>Degree: architecture or engineering, often licensure required</td></tr>
+</table>
+
+<h2 id="certifications">Certifications that actually matter</h2>
+<p>Neither path strictly requires a certification to break in, but a handful signal real credibility to employers:</p>
+<ul>
+<li><strong>BICSI DCDC</strong> (Data Center Design Consultant) — building-side, widely recognized in facility design</li>
+<li><strong>CNet CDCDP</strong> (Certified Data Centre Design Professional) — building-side, vendor-neutral design credential</li>
+<li><strong>AWS Certified Solutions Architect</strong> — IT-side, the most commonly requested cloud credential</li>
+<li><strong>Cisco CCNP Data Center</strong> — IT-side, for network-heavy infrastructure roles</li>
+<li><strong>ISO 19650</strong> familiarity — increasingly expected on the building side for any project run through BIM, since data center clients tend to demand disciplined information management</li>
+</ul>
+<p>None of these replace hands-on project experience, but on the building side in particular, they're rare enough that having one puts you ahead of most applicants.</p>
+
+<h2 id="cast">The rest of the cast — who else builds a data center</h2>
+<p>The architect, on the building side, is never working alone — and understanding the other roles in the room is part of learning to speak their language. A data center brings together five distinct roles on a typical project:</p>
+
+<div class="post-img" style="margin:32px auto;">
+<img alt="Illustration of the five roles around a data center building: developer, operator, architect, engineers, and cloud provider" src="./../../../wp-content/uploads/2026/09/book-five-roles.jpg"/>
+<div class="cap">The five roles behind every data center — from Inside a Data Center.</div>
+</div>
+
+<ul>
+<li><strong>Developer</strong> — identifies the site, finances the project, and drives construction, sometimes for their own use (a hyperscaler building for itself), sometimes to sell or lease once delivered</li>
+<li><strong>Operator</strong> — runs the building once delivered: maintenance, security, 24/7 on-call staff, service-level contracts</li>
+<li><strong>Cloud Provider</strong> — the end client, sometimes the same entity as the Developer</li>
+<li><strong>Architect</strong> — organizes the space and ensures compliance across every technical constraint above</li>
+<li><strong>Engineers</strong> — size the electrical, cooling, and structural systems that make the whole thing physically possible</li>
+</ul>
+<div class="takeaway">
+<div class="label"><span class="dot"></span>Key takeaway</div>
+<p>A data center doesn't have a single author — it has a team. The architect's job is to organize the space and speak every specialist's language well enough to earn a seat at the table.</p>
+</div>
+
+<h2 id="salary">Salary snapshot</h2>
+<p>Pay for this title ranges enormously — anywhere from roughly $82,000 to well over $280,000 depending on the source you check. That's not bad data; it's the market pricing two different jobs, at wildly different seniority levels, under one search term. We break down the full picture — by company, by seniority, and by which track you're actually being hired for — in a dedicated <a href="./../../../2026/09/data-center-architect-salary-2026/index.html">salary guide covering AWS, Google, Microsoft, Meta, and NVIDIA</a>.</p>
+
+<h2 id="breaking-in">How to actually break in from AEC/BIM</h2>
+<p>If you're an architect, engineer, or BIM manager eyeing the building-design track specifically, the path in looks different from a typical career pivot:</p>
+<ol>
+<li><strong>Learn the vocabulary before the interview.</strong> PUE, Tier, redundancy, IT hall — these come up constantly, and fluency signals you've done your homework before anyone asks you to prove it on a project.</li>
+<li><strong>Build a portfolio piece, even a personal one.</strong> A conceptual data center layout, a Tier III floor plan exercise, anything that shows you've applied the vocabulary to an actual design problem.</li>
+<li><strong>Target firms already building data centers</strong> rather than applying cold to generic architecture postings. Specialized operators and AEC firms with an active data center practice are a much faster route in than a general portfolio submission.</li>
+<li><strong>Network specifically within the space.</strong> Data center design is a small, specialized world — a handful of conversations with people already doing this work will teach you more than months of generic job-searching.</li>
+</ol>
+
+<div class="takeaway">
+<div class="label"><span class="dot"></span>The short version</div>
+<p>"Data center architect" is two jobs wearing one job title. Figure out which one you're chasing, learn its specific vocabulary, and target it directly — don't let a confusing job market cost you months preparing for the wrong role.</p>
+</div>
+
+</div>
+
+<div class="book-cta">
+<div class="book-cta-inner">
+<img alt="Inside a Data Center book cover" src="./../../../wp-content/uploads/2026/08/inside-a-data-center-cover-600w.jpg"/>
+<div class="book-cta-text">
+<div class="label">From the author</div>
+<h3>Inside a Data Center</h3>
+<p>The visual guide that gets you fluent in the building-side vocabulary — PUE, Tier, redundancy, and the rest of the cast — before your first meeting. Free 9-page preview, no strings attached.</p>
+<a class="bb-btn" href="https://gum.co/u/h0eoqfrh" rel="noopener" target="_blank">Get the free preview</a>
+</div>
+</div>
+</div>
+
+<div class="related">
+<a href="./../../../2026/09/data-center-architect-salary-2026/index.html">
+<div class="rel-label">Related</div>
+<div class="rel-title">Data Center Architect Salary in 2026: AWS, Google, Microsoft, Meta &amp; NVIDIA Compared →</div>
+</a>
+<a href="./../../../2026/08/what-is-pue-data-center-efficiency-explained/index.html">
+<div class="rel-label">Related</div>
+<div class="rel-title">What Is PUE? The Data Center Efficiency Metric Everyone Argues About →</div>
+</a>
+<a href="./../../../2026/08/data-center-tiers-explained/index.html">
+<div class="rel-label">Related</div>
+<div class="rel-title">Data Center Tiers Explained: Tier I, II, III and IV →</div>
+</a>
+</div>
+</article>
+
+<footer class="bb-footer">
+<div class="bb-footer-inner">
+<p>© 2026 bim&amp;beam — built by <a href="https://www.linkedin.com/in/souhayl-othman/" target="_blank" rel="noopener">Souhayl Othman</a></p>
+</div>
+</footer>
+
+<script src="./../../../wp-content/brand.js" defer></script>
+</body>
+</html>
