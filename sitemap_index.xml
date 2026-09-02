@@ -1,23 +1,23 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="./main-sitemap.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="https://bimandbeam.com/main-sitemap.xsl"?>
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<sitemap>
-		<loc>./post-sitemap.xml</loc>
-		<lastmod>2025-10-20T08:54:58+00:00</lastmod>
+		<loc>https://bimandbeam.com/post-sitemap.xml</loc>
+		<lastmod>2026-09-02T13:17:07+00:00</lastmod>
 	</sitemap>
 	<sitemap>
-		<loc>./page-sitemap.xml</loc>
+		<loc>https://bimandbeam.com/page-sitemap.xml</loc>
 		<lastmod>2025-05-13T18:14:12+00:00</lastmod>
 	</sitemap>
 	<sitemap>
-		<loc>./category-sitemap.xml</loc>
+		<loc>https://bimandbeam.com/category-sitemap.xml</loc>
 		<lastmod>2025-10-20T08:54:58+00:00</lastmod>
 	</sitemap>
 	<sitemap>
-		<loc>./post_tag-sitemap.xml</loc>
+		<loc>https://bimandbeam.com/post_tag-sitemap.xml</loc>
 		<lastmod>2025-09-12T15:56:37+00:00</lastmod>
 	</sitemap>
 	<sitemap>
-		<loc>./author-sitemap.xml</loc>
+		<loc>https://bimandbeam.com/author-sitemap.xml</loc>
 		<lastmod>2022-12-25T18:17:25+00:00</lastmod>
 	</sitemap>
 </sitemapindex>

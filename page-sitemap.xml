@@ -1,61 +1,61 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="./main-sitemap.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="https://bimandbeam.com/main-sitemap.xsl"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
-		<loc>./</loc>
+		<loc>https://bimandbeam.com/</loc>
 		<lastmod>2025-04-21T13:27:14+00:00</lastmod>
 		<image:image>
-			<image:loc>./wp-content/uploads/2024/11/Identical-Instances-in-same-place-warning-in-Revit.png</image:loc>
+			<image:loc>https://bimandbeam.com/wp-content/uploads/2024/11/Identical-Instances-in-same-place-warning-in-Revit.png</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>./privacy-policy/</loc>
+		<loc>https://bimandbeam.com/privacy-policy/</loc>
 		<lastmod>2022-08-01T19:07:03+00:00</lastmod>
 	</url>
 	<url>
-		<loc>./about/</loc>
+		<loc>https://bimandbeam.com/about/</loc>
 		<lastmod>2022-08-12T12:47:21+00:00</lastmod>
 		<image:image>
-			<image:loc>./wp-content/uploads/2022/08/1630061046370-1.jpg</image:loc>
+			<image:loc>https://bimandbeam.com/wp-content/uploads/2022/08/1630061046370-1.jpg</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>./wp-content/uploads/2022/08/1637766449386-768x1024.jpg</image:loc>
+			<image:loc>https://bimandbeam.com/wp-content/uploads/2022/08/1637766449386-768x1024.jpg</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>./contact/</loc>
+		<loc>https://bimandbeam.com/contact/</loc>
 		<lastmod>2024-11-21T22:22:14+00:00</lastmod>
 	</url>
 	<url>
-		<loc>./revit-sync/</loc>
+		<loc>https://bimandbeam.com/revit-sync/</loc>
 		<lastmod>2025-04-15T20:37:58+00:00</lastmod>
 	</url>
 	<url>
-		<loc>./revit-journal-analyzer/</loc>
+		<loc>https://bimandbeam.com/revit-journal-analyzer/</loc>
 		<lastmod>2025-04-16T15:53:52+00:00</lastmod>
 	</url>
 	<url>
-		<loc>./sponsor-us/</loc>
+		<loc>https://bimandbeam.com/sponsor-us/</loc>
 		<lastmod>2025-05-13T18:14:12+00:00</lastmod>
 		<image:image>
-			<image:loc>./wp-content/uploads/2024/10/cropped-1-1.png</image:loc>
+			<image:loc>https://bimandbeam.com/wp-content/uploads/2024/10/cropped-1-1.png</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>./wp-content/uploads/2025/05/1.png</image:loc>
+			<image:loc>https://bimandbeam.com/wp-content/uploads/2025/05/1.png</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>./wp-content/uploads/2025/05/3.png</image:loc>
+			<image:loc>https://bimandbeam.com/wp-content/uploads/2025/05/3.png</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>./wp-content/uploads/2025/05/2.png</image:loc>
+			<image:loc>https://bimandbeam.com/wp-content/uploads/2025/05/2.png</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>./wp-content/uploads/2025/05/5.png</image:loc>
+			<image:loc>https://bimandbeam.com/wp-content/uploads/2025/05/5.png</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>./wp-content/uploads/2025/05/6.png</image:loc>
+			<image:loc>https://bimandbeam.com/wp-content/uploads/2025/05/6.png</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>./wp-content/uploads/2025/05/4.png</image:loc>
+			<image:loc>https://bimandbeam.com/wp-content/uploads/2025/05/4.png</image:loc>
 		</image:image>
 	</url>
 </urlset>

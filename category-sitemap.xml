@@ -1,223 +1,223 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="./main-sitemap.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="https://bimandbeam.com/main-sitemap.xsl"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
-		<loc>./category/aec/</loc>
+		<loc>https://bimandbeam.com/category/aec/</loc>
 		<lastmod>2025-10-20T08:54:58+00:00</lastmod>
 	</url>
 	<url>
-		<loc>./category/archicad/</loc>
+		<loc>https://bimandbeam.com/category/archicad/</loc>
 		<lastmod>2023-01-03T10:24:02+00:00</lastmod>
 	</url>
 	<url>
-		<loc>./category/architecture/</loc>
+		<loc>https://bimandbeam.com/category/architecture/</loc>
 		<lastmod>2025-04-10T20:28:08+00:00</lastmod>
 	</url>
 	<url>
-		<loc>./category/autodesk/</loc>
+		<loc>https://bimandbeam.com/category/autodesk/</loc>
 		<lastmod>2025-10-20T08:54:58+00:00</lastmod>
 	</url>
 	<url>
-		<loc>./category/bim/</loc>
+		<loc>https://bimandbeam.com/category/bim/</loc>
 		<lastmod>2025-10-20T08:54:58+00:00</lastmod>
 	</url>
 	<url>
-		<loc>./category/bim-challenges/</loc>
+		<loc>https://bimandbeam.com/category/bim-challenges/</loc>
 		<lastmod>2022-10-16T07:34:33+00:00</lastmod>
 	</url>
 	<url>
-		<loc>./category/bim-coordination/</loc>
+		<loc>https://bimandbeam.com/category/bim-coordination/</loc>
 		<lastmod>2023-01-04T15:59:54+00:00</lastmod>
 	</url>
 	<url>
-		<loc>./category/bim-data/</loc>
+		<loc>https://bimandbeam.com/category/bim-data/</loc>
 		<lastmod>2023-01-04T15:59:54+00:00</lastmod>
 	</url>
 	<url>
-		<loc>./category/bim-dimensions/</loc>
+		<loc>https://bimandbeam.com/category/bim-dimensions/</loc>
 		<lastmod>2022-08-02T13:26:34+00:00</lastmod>
 	</url>
 	<url>
-		<loc>./category/bim-roles/</loc>
+		<loc>https://bimandbeam.com/category/bim-roles/</loc>
 		<lastmod>2023-01-01T19:25:53+00:00</lastmod>
 	</url>
 	<url>
-		<loc>./category/bim-softwares/</loc>
+		<loc>https://bimandbeam.com/category/bim-softwares/</loc>
 		<lastmod>2024-11-19T23:50:13+00:00</lastmod>
 	</url>
 	<url>
-		<loc>./category/bim-track/</loc>
+		<loc>https://bimandbeam.com/category/bim-track/</loc>
 		<lastmod>2022-10-16T07:29:08+00:00</lastmod>
 	</url>
 	<url>
-		<loc>./category/bim360/</loc>
+		<loc>https://bimandbeam.com/category/bim360/</loc>
 		<lastmod>2024-11-19T23:50:13+00:00</lastmod>
 	</url>
 	<url>
-		<loc>./category/bimsync/</loc>
+		<loc>https://bimandbeam.com/category/bimsync/</loc>
 		<lastmod>2022-10-16T07:29:08+00:00</lastmod>
 	</url>
 	<url>
-		<loc>./category/cad/</loc>
+		<loc>https://bimandbeam.com/category/cad/</loc>
 		<lastmod>2022-10-16T07:38:15+00:00</lastmod>
 	</url>
 	<url>
-		<loc>./category/civil-3d/</loc>
+		<loc>https://bimandbeam.com/category/civil-3d/</loc>
 		<lastmod>2022-10-16T07:36:53+00:00</lastmod>
 	</url>
 	<url>
-		<loc>./category/clash-detection/</loc>
+		<loc>https://bimandbeam.com/category/clash-detection/</loc>
 		<lastmod>2023-01-02T20:38:27+00:00</lastmod>
 	</url>
 	<url>
-		<loc>./category/cobie/</loc>
+		<loc>https://bimandbeam.com/category/cobie/</loc>
 		<lastmod>2022-10-16T07:34:33+00:00</lastmod>
 	</url>
 	<url>
-		<loc>./category/construction/</loc>
+		<loc>https://bimandbeam.com/category/construction/</loc>
 		<lastmod>2022-10-16T07:36:33+00:00</lastmod>
 	</url>
 	<url>
-		<loc>./category/data-management/</loc>
+		<loc>https://bimandbeam.com/category/data-management/</loc>
 		<lastmod>2023-01-02T20:37:16+00:00</lastmod>
 	</url>
 	<url>
-		<loc>./category/diroots/</loc>
+		<loc>https://bimandbeam.com/category/diroots/</loc>
 		<lastmod>2023-01-04T15:59:54+00:00</lastmod>
 	</url>
 	<url>
-		<loc>./category/download/</loc>
+		<loc>https://bimandbeam.com/category/download/</loc>
 		<lastmod>2022-11-11T14:37:13+00:00</lastmod>
 	</url>
 	<url>
-		<loc>./category/dynamo/</loc>
+		<loc>https://bimandbeam.com/category/dynamo/</loc>
 		<lastmod>2024-11-17T21:42:40+00:00</lastmod>
 	</url>
 	<url>
-		<loc>./category/ebook/</loc>
+		<loc>https://bimandbeam.com/category/ebook/</loc>
 		<lastmod>2024-11-01T19:21:01+00:00</lastmod>
 	</url>
 	<url>
-		<loc>./category/fm/</loc>
+		<loc>https://bimandbeam.com/category/fm/</loc>
 		<lastmod>2022-09-14T09:32:32+00:00</lastmod>
 	</url>
 	<url>
-		<loc>./category/fusion-360/</loc>
+		<loc>https://bimandbeam.com/category/fusion-360/</loc>
 		<lastmod>2023-01-01T18:23:38+00:00</lastmod>
 	</url>
 	<url>
-		<loc>./category/gis/</loc>
+		<loc>https://bimandbeam.com/category/gis/</loc>
 		<lastmod>2025-04-17T12:50:23+00:00</lastmod>
 	</url>
 	<url>
-		<loc>./category/grasshopper/</loc>
+		<loc>https://bimandbeam.com/category/grasshopper/</loc>
 		<lastmod>2022-12-27T11:18:04+00:00</lastmod>
 	</url>
 	<url>
-		<loc>./category/iso/</loc>
+		<loc>https://bimandbeam.com/category/iso/</loc>
 		<lastmod>2025-04-14T05:40:09+00:00</lastmod>
 	</url>
 	<url>
-		<loc>./category/jobs/</loc>
+		<loc>https://bimandbeam.com/category/jobs/</loc>
 		<lastmod>2022-12-02T13:40:08+00:00</lastmod>
 	</url>
 	<url>
-		<loc>./category/linking-models/</loc>
+		<loc>https://bimandbeam.com/category/linking-models/</loc>
 		<lastmod>2023-01-02T17:08:44+00:00</lastmod>
 	</url>
 	<url>
-		<loc>./category/mep/</loc>
+		<loc>https://bimandbeam.com/category/mep/</loc>
 		<lastmod>2023-01-01T19:25:24+00:00</lastmod>
 	</url>
 	<url>
-		<loc>./category/ms-access/</loc>
+		<loc>https://bimandbeam.com/category/ms-access/</loc>
 		<lastmod>2023-01-02T20:37:16+00:00</lastmod>
 	</url>
 	<url>
-		<loc>./category/ms-excel/</loc>
+		<loc>https://bimandbeam.com/category/ms-excel/</loc>
 		<lastmod>2023-01-02T20:37:16+00:00</lastmod>
 	</url>
 	<url>
-		<loc>./category/navisworks/</loc>
+		<loc>https://bimandbeam.com/category/navisworks/</loc>
 		<lastmod>2024-11-19T23:50:13+00:00</lastmod>
 	</url>
 	<url>
-		<loc>./category/nested-family/</loc>
+		<loc>https://bimandbeam.com/category/nested-family/</loc>
 		<lastmod>2022-09-14T09:30:24+00:00</lastmod>
 	</url>
 	<url>
-		<loc>./category/planning/</loc>
+		<loc>https://bimandbeam.com/category/planning/</loc>
 		<lastmod>2022-10-16T07:33:06+00:00</lastmod>
 	</url>
 	<url>
-		<loc>./category/plugins/</loc>
+		<loc>https://bimandbeam.com/category/plugins/</loc>
 		<lastmod>2023-01-02T20:37:16+00:00</lastmod>
 	</url>
 	<url>
-		<loc>./category/power-bi/</loc>
+		<loc>https://bimandbeam.com/category/power-bi/</loc>
 		<lastmod>2022-10-16T07:34:33+00:00</lastmod>
 	</url>
 	<url>
-		<loc>./category/primavera-p6/</loc>
+		<loc>https://bimandbeam.com/category/primavera-p6/</loc>
 		<lastmod>2022-10-16T07:33:06+00:00</lastmod>
 	</url>
 	<url>
-		<loc>./category/project-browser/</loc>
+		<loc>https://bimandbeam.com/category/project-browser/</loc>
 		<lastmod>2022-09-14T09:45:32+00:00</lastmod>
 	</url>
 	<url>
-		<loc>./category/project-management/</loc>
+		<loc>https://bimandbeam.com/category/project-management/</loc>
 		<lastmod>2022-12-30T09:32:06+00:00</lastmod>
 	</url>
 	<url>
-		<loc>./category/ralph-montague/</loc>
+		<loc>https://bimandbeam.com/category/ralph-montague/</loc>
 		<lastmod>2022-09-14T09:32:32+00:00</lastmod>
 	</url>
 	<url>
-		<loc>./category/revit/</loc>
+		<loc>https://bimandbeam.com/category/revit/</loc>
 		<lastmod>2025-05-09T12:31:48+00:00</lastmod>
 	</url>
 	<url>
-		<loc>./category/revit-viewer/</loc>
+		<loc>https://bimandbeam.com/category/revit-viewer/</loc>
 		<lastmod>2024-11-19T23:50:13+00:00</lastmod>
 	</url>
 	<url>
-		<loc>./category/schedule/</loc>
+		<loc>https://bimandbeam.com/category/schedule/</loc>
 		<lastmod>2023-01-02T20:38:52+00:00</lastmod>
 	</url>
 	<url>
-		<loc>./category/shared-coordinates/</loc>
+		<loc>https://bimandbeam.com/category/shared-coordinates/</loc>
 		<lastmod>2023-01-02T17:08:44+00:00</lastmod>
 	</url>
 	<url>
-		<loc>./category/shared-family/</loc>
+		<loc>https://bimandbeam.com/category/shared-family/</loc>
 		<lastmod>2022-12-26T11:13:00+00:00</lastmod>
 	</url>
 	<url>
-		<loc>./category/sheetlink/</loc>
+		<loc>https://bimandbeam.com/category/sheetlink/</loc>
 		<lastmod>2022-10-16T07:33:06+00:00</lastmod>
 	</url>
 	<url>
-		<loc>./category/sketch/</loc>
+		<loc>https://bimandbeam.com/category/sketch/</loc>
 		<lastmod>2022-10-16T07:37:54+00:00</lastmod>
 	</url>
 	<url>
-		<loc>./category/sketchup/</loc>
+		<loc>https://bimandbeam.com/category/sketchup/</loc>
 		<lastmod>2022-10-16T07:37:54+00:00</lastmod>
 	</url>
 	<url>
-		<loc>./category/tutorial/</loc>
+		<loc>https://bimandbeam.com/category/tutorial/</loc>
 		<lastmod>2024-11-21T20:51:19+00:00</lastmod>
 	</url>
 	<url>
-		<loc>./category/uncategorized/</loc>
+		<loc>https://bimandbeam.com/category/uncategorized/</loc>
 		<lastmod>2022-12-26T11:13:00+00:00</lastmod>
 	</url>
 	<url>
-		<loc>./category/vdc/</loc>
+		<loc>https://bimandbeam.com/category/vdc/</loc>
 		<lastmod>2022-10-16T07:36:33+00:00</lastmod>
 	</url>
 	<url>
-		<loc>./category/worksets/</loc>
+		<loc>https://bimandbeam.com/category/worksets/</loc>
 		<lastmod>2022-09-14T09:38:32+00:00</lastmod>
 	</url>
 </urlset>
