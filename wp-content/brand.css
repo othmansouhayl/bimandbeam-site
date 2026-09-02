@@ -117,11 +117,12 @@ img{ opacity:0.96; }
 .bb-links{display:flex;gap:28px;list-style:none;margin:0;padding:0;}
 .bb-links a{font-family:'JetBrains Mono',monospace;font-size:12px;letter-spacing:0.5px;color:#cfcfcf;text-decoration:none;text-transform:uppercase;}
 .bb-links a:hover{color:#22C55E;}
-.bb-menu-btn{display:none;background:none;border:none;color:#fff;font-size:22px;cursor:pointer;line-height:1;padding:4px 8px;}
+.bb-menu-btn{display:none;background:none;border:none;color:#fff;font-size:22px;cursor:pointer;line-height:1;padding:11px 13px;}
 .bb-menu-btn:active{transform:scale(0.92);}
 @media (max-width:720px){
   .bb-links{display:none;}
   .bb-links.bb-links-open{display:flex;flex-direction:column;position:absolute;top:100%;left:0;right:0;background:#0a0a0a;border-bottom:0.5px solid #222;padding:12px 24px 20px;gap:16px;}
+  .bb-links.bb-links-open a{display:block;padding:14px 4px;}
   .bb-menu-btn{display:block;}
 }
 .bb-footer{border-top:0.5px solid #1a1a1a;padding:40px 24px;background:#0a0a0a;}
@@ -139,4 +140,4 @@ img{ opacity:0.96; }
 .bb-post-cta-text .bb-cta-label{font-family:'JetBrains Mono',monospace;font-size:11px;color:#22C55E;text-transform:uppercase;letter-spacing:1px;margin-bottom:6px;}
 .bb-post-cta-text h4{font-family:'Space Grotesk',sans-serif;color:#fff;font-size:17px;margin:0 0 8px;}
 .bb-post-cta-text p{color:#a8a8a8;font-size:13.5px;margin:0 0 14px;line-height:1.6;}
-.bb-post-cta-btn{font-family:'Inter',sans-serif;font-weight:600;font-size:13px;padding:10px 20px;border-radius:6px;text-decoration:none;display:inline-block;background:#22C55E;color:#0a0a0a !important;}
+.bb-post-cta-btn{font-family:'Inter',sans-serif;font-weight:600;font-size:13px;padding:14px 20px;border-radius:6px;text-decoration:none;display:inline-block;background:#22C55E;color:#0a0a0a !important;}
