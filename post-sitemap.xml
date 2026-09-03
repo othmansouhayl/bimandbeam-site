@@ -1,336 +1,340 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="https://bimandbeam.com/main-sitemap.xsl"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
+		<loc>https://bimandbeam.com/2026/09/data-center-certifications-for-architects/</loc>
+		<lastmod>2026-09-03T07:52:58+00:00</lastmod>
+	</url>
+	<url>
 		<loc>https://bimandbeam.com/blog/</loc>
-		<lastmod>2026-09-01T10:04:36+00:00</lastmod>
-	</url>
-	<url>
-		<loc>https://bimandbeam.com/2026/09/data-center-architect-salary-2026/</loc>
-		<lastmod>2026-09-01T10:04:36+00:00</lastmod>
-	</url>
-	<url>
-		<loc>https://bimandbeam.com/2026/09/what-is-a-data-center-architect/</loc>
-		<lastmod>2026-09-01T10:04:36+00:00</lastmod>
+		<lastmod>2026-09-02T14:08:03+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://bimandbeam.com/2021/09/bim-rolesandresponsibilities-html/</loc>
-		<lastmod>2026-08-26T09:37:25+00:00</lastmod>
+		<lastmod>2026-09-02T14:07:35+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://bimandbeam.com/2021/09/bim-workflow-vs-cad-workflow-html/</loc>
-		<lastmod>2026-08-26T09:37:25+00:00</lastmod>
+		<lastmod>2026-09-02T14:07:35+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://bimandbeam.com/2021/09/what-is-bim-what-are-its-benefits-and-html/</loc>
-		<lastmod>2026-08-26T09:37:25+00:00</lastmod>
+		<lastmod>2026-09-02T14:07:35+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://bimandbeam.com/2021/10/revit-plugins-that-all-bim-coordinators-html/</loc>
-		<lastmod>2026-08-26T09:37:25+00:00</lastmod>
+		<lastmod>2026-09-02T14:07:35+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://bimandbeam.com/2021/11/top-9-essential-bim-softwares-that-bim-html/</loc>
-		<lastmod>2026-08-26T09:37:25+00:00</lastmod>
+		<lastmod>2026-09-02T14:07:35+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://bimandbeam.com/2021/12/bim-data-management-workflow-revit-html/</loc>
-		<lastmod>2026-08-26T09:37:25+00:00</lastmod>
+		<lastmod>2026-09-02T14:07:35+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://bimandbeam.com/2021/12/digital-transition-of-construction-html/</loc>
-		<lastmod>2026-08-26T09:37:25+00:00</lastmod>
+		<lastmod>2026-09-02T14:07:35+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://bimandbeam.com/2021/12/link-revit-models-by-shared-coordinates-html/</loc>
-		<lastmod>2026-08-26T09:37:25+00:00</lastmod>
+		<lastmod>2026-09-02T14:07:35+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://bimandbeam.com/2021/12/manage-change-and-update-bim-data-html/</loc>
-		<lastmod>2026-08-26T09:37:25+00:00</lastmod>
+		<lastmod>2026-09-02T14:07:35+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://bimandbeam.com/2022/01/bim-3d-coordination-history-workflow-html/</loc>
-		<lastmod>2026-08-26T09:37:25+00:00</lastmod>
+		<lastmod>2026-09-02T14:07:35+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://bimandbeam.com/2022/01/bim-vs-vdc-similarities-and-differences-html/</loc>
-		<lastmod>2026-08-26T09:37:25+00:00</lastmod>
+		<lastmod>2026-09-02T14:07:35+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://bimandbeam.com/2022/01/convert-your-bim-model-into-3d-sketch-html/</loc>
-		<lastmod>2026-08-26T09:37:25+00:00</lastmod>
+		<lastmod>2026-09-02T14:07:35+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://bimandbeam.com/2022/01/create-schedule-in-revit-advanced-html/</loc>
-		<lastmod>2026-08-26T09:37:25+00:00</lastmod>
+		<lastmod>2026-09-02T14:07:35+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://bimandbeam.com/2022/01/free-revit-viewer-html/</loc>
-		<lastmod>2026-08-26T09:37:25+00:00</lastmod>
+		<lastmod>2026-09-02T14:07:35+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://bimandbeam.com/2022/01/link-cobie-file-with-revit-model-in-html/</loc>
-		<lastmod>2026-08-26T09:37:25+00:00</lastmod>
+		<lastmod>2026-09-02T14:07:35+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://bimandbeam.com/2022/01/organize-project-browser-in-revit-html/</loc>
-		<lastmod>2026-08-26T09:37:25+00:00</lastmod>
+		<lastmod>2026-09-02T14:07:35+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://bimandbeam.com/2022/01/reverse-alignment-civil-3d-reverse-html/</loc>
-		<lastmod>2026-08-26T09:37:25+00:00</lastmod>
+		<lastmod>2026-09-02T14:07:35+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://bimandbeam.com/2022/01/revit-view-range-html/</loc>
-		<lastmod>2026-08-26T09:37:25+00:00</lastmod>
+		<lastmod>2026-09-02T14:07:35+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://bimandbeam.com/2022/01/what-is-dynamo-for-revit-html/</loc>
-		<lastmod>2026-08-26T09:37:25+00:00</lastmod>
+		<lastmod>2026-09-02T14:07:35+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://bimandbeam.com/2022/02/free-bim-engineering-mep-architecture-ebooks-html/</loc>
-		<lastmod>2026-08-26T09:37:25+00:00</lastmod>
+		<lastmod>2026-09-02T14:07:35+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://bimandbeam.com/2022/02/what-is-workset-in-revit-html/</loc>
-		<lastmod>2026-08-26T09:37:25+00:00</lastmod>
+		<lastmod>2026-09-02T14:07:35+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://bimandbeam.com/2022/03/revit-nested-family-and-revit-shared-html/</loc>
-		<lastmod>2026-08-26T09:37:25+00:00</lastmod>
+		<lastmod>2026-09-02T14:07:35+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://bimandbeam.com/2022/07/hide-revit-link-in-all-view-templates-html/</loc>
-		<lastmod>2026-08-26T09:37:25+00:00</lastmod>
+		<lastmod>2026-09-02T14:07:35+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://bimandbeam.com/2022/07/revit-courses-bim-courses/</loc>
-		<lastmod>2026-08-26T09:37:25+00:00</lastmod>
+		<lastmod>2026-09-02T14:07:35+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://bimandbeam.com/2022/07/revit-families-how-to-create-one-in-5-easy-steps/</loc>
-		<lastmod>2026-08-26T09:37:25+00:00</lastmod>
+		<lastmod>2026-09-02T14:07:35+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://bimandbeam.com/2022/08/how-to-become-bim-manager-in-5-steps/</loc>
-		<lastmod>2026-08-26T09:37:25+00:00</lastmod>
+		<lastmod>2026-09-02T14:07:35+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://bimandbeam.com/2022/08/revit-phases-phasing/</loc>
-		<lastmod>2026-08-26T09:37:25+00:00</lastmod>
+		<lastmod>2026-09-02T14:07:35+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://bimandbeam.com/2022/08/what-are-keynotes-in-revit-complete-guide/</loc>
-		<lastmod>2026-08-26T09:37:25+00:00</lastmod>
+		<lastmod>2026-09-02T14:07:35+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://bimandbeam.com/2022/11/bim-coordinator-job-post-enermech-ireland/</loc>
-		<lastmod>2026-08-26T09:37:25+00:00</lastmod>
+		<lastmod>2026-09-02T14:07:35+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://bimandbeam.com/2022/11/bim-coordinator-job-post-pm-group-ireland/</loc>
-		<lastmod>2026-08-26T09:37:25+00:00</lastmod>
+		<lastmod>2026-09-02T14:07:35+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://bimandbeam.com/2022/11/bim-coordinator-job-post-richard-kennedy-architects-usa/</loc>
-		<lastmod>2026-08-26T09:37:25+00:00</lastmod>
+		<lastmod>2026-09-02T14:07:35+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://bimandbeam.com/2022/11/bim-coordinator-job-post-stc-group-ireland/</loc>
-		<lastmod>2026-08-26T09:37:25+00:00</lastmod>
+		<lastmod>2026-09-02T14:07:35+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://bimandbeam.com/2022/11/bim-lead-job-post-enermech-ireland/</loc>
-		<lastmod>2026-08-26T09:37:25+00:00</lastmod>
+		<lastmod>2026-09-02T14:07:35+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://bimandbeam.com/2022/11/bim-manager-job-post-paris-france/</loc>
-		<lastmod>2026-08-26T09:37:25+00:00</lastmod>
+		<lastmod>2026-09-02T14:07:35+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://bimandbeam.com/2022/11/bim-manager-job-post-siemens-energy-manchester-england-uk/</loc>
-		<lastmod>2026-08-26T09:37:25+00:00</lastmod>
+		<lastmod>2026-09-02T14:07:35+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://bimandbeam.com/2022/11/bim-modeler-job-post-extia-france/</loc>
-		<lastmod>2026-08-26T09:37:25+00:00</lastmod>
+		<lastmod>2026-09-02T14:07:35+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://bimandbeam.com/2022/11/bim-modeler-job-post-sia-luxembourg/</loc>
-		<lastmod>2026-08-26T09:37:25+00:00</lastmod>
+		<lastmod>2026-09-02T14:07:35+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://bimandbeam.com/2022/11/bim-specialist-job-post-seattle-usa/</loc>
-		<lastmod>2026-08-26T09:37:25+00:00</lastmod>
+		<lastmod>2026-09-02T14:07:35+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://bimandbeam.com/2022/12/autodesk-viewer-and-its-features/</loc>
-		<lastmod>2026-08-26T09:37:25+00:00</lastmod>
+		<lastmod>2026-09-02T14:07:35+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://bimandbeam.com/2022/12/bim-for-mep-a-comprehensive-guide/</loc>
-		<lastmod>2026-08-26T09:37:25+00:00</lastmod>
+		<lastmod>2026-09-02T14:07:35+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://bimandbeam.com/2022/12/export-from-revit-to-navisworks-a-step-by-step-guide/</loc>
-		<lastmod>2026-08-26T09:37:25+00:00</lastmod>
+		<lastmod>2026-09-02T14:07:35+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://bimandbeam.com/2022/12/how-to-become-a-bim-coordinator/</loc>
-		<lastmod>2026-08-26T09:37:25+00:00</lastmod>
+		<lastmod>2026-09-02T14:07:35+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://bimandbeam.com/2022/12/how-to-master-revit-room-schedule/</loc>
-		<lastmod>2026-08-26T09:37:25+00:00</lastmod>
+		<lastmod>2026-09-02T14:07:35+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://bimandbeam.com/2022/12/iso-19650-bim-steps-of-implementation/</loc>
-		<lastmod>2026-08-26T09:37:25+00:00</lastmod>
+		<lastmod>2026-09-02T14:07:35+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://bimandbeam.com/2022/12/revit-design-option-bim-modeling/</loc>
-		<lastmod>2026-08-26T09:37:25+00:00</lastmod>
+		<lastmod>2026-09-02T14:07:35+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://bimandbeam.com/2022/12/scope-box-greyed-out-revit-in-view-property/</loc>
-		<lastmod>2026-08-26T09:37:25+00:00</lastmod>
+		<lastmod>2026-09-02T14:07:35+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://bimandbeam.com/2023/01/change-and-modify-units-in-fusion-360-2-methods/</loc>
-		<lastmod>2026-08-26T09:37:25+00:00</lastmod>
+		<lastmod>2026-09-02T14:07:35+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://bimandbeam.com/2023/01/create-exploded-axo-in-revit-in-5-minutes/</loc>
-		<lastmod>2026-08-26T09:37:25+00:00</lastmod>
+		<lastmod>2026-09-02T14:07:35+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://bimandbeam.com/2023/01/export-from-archicad-to-revit-step-by-step/</loc>
-		<lastmod>2026-08-26T09:37:25+00:00</lastmod>
+		<lastmod>2026-09-02T14:07:35+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://bimandbeam.com/2023/01/sync-revit-schedules-with-excel-or-ms-access/</loc>
-		<lastmod>2026-08-26T09:37:25+00:00</lastmod>
+		<lastmod>2026-09-02T14:07:35+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://bimandbeam.com/2024/10/geometry-in-the-file-dwg-has-extents-greater-than-20-miles-33-km-revit/</loc>
-		<lastmod>2026-08-26T09:37:25+00:00</lastmod>
+		<lastmod>2026-09-02T14:07:35+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://bimandbeam.com/2024/11/ai-in-architecture-how-machine-learning-is-shaping-the-future-of-design/</loc>
-		<lastmod>2026-08-26T09:37:25+00:00</lastmod>
+		<lastmod>2026-09-02T14:07:35+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://bimandbeam.com/2024/11/bim-and-gis-integration/</loc>
-		<lastmod>2026-08-26T09:37:25+00:00</lastmod>
+		<lastmod>2026-09-02T14:07:35+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://bimandbeam.com/2024/11/element-slightly-off-axis-revit/</loc>
-		<lastmod>2026-08-26T09:37:25+00:00</lastmod>
+		<lastmod>2026-09-02T14:07:35+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://bimandbeam.com/2024/11/identical-instances-in-the-same-place-revit/</loc>
-		<lastmod>2026-08-26T09:37:25+00:00</lastmod>
+		<lastmod>2026-09-02T14:07:35+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://bimandbeam.com/2024/11/revit-best-practices/</loc>
-		<lastmod>2026-08-26T09:37:25+00:00</lastmod>
+		<lastmod>2026-09-02T14:07:35+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://bimandbeam.com/2024/11/revit-warnings/</loc>
-		<lastmod>2026-08-26T09:37:25+00:00</lastmod>
+		<lastmod>2026-09-02T14:07:35+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://bimandbeam.com/2024/11/slightly-off-axis-and-may-cause-inaccuracies-warning-in-revit/</loc>
-		<lastmod>2026-08-26T09:37:25+00:00</lastmod>
+		<lastmod>2026-09-02T14:07:35+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://bimandbeam.com/2024/11/top-5-best-laptops-for-revit-2025/</loc>
-		<lastmod>2026-08-26T09:37:25+00:00</lastmod>
+		<lastmod>2026-09-02T14:07:35+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://bimandbeam.com/2025/04/acc-trimble-connect-catenda-cde-2025/</loc>
-		<lastmod>2026-08-26T09:37:25+00:00</lastmod>
+		<lastmod>2026-09-02T14:07:35+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://bimandbeam.com/2025/04/audit-temps-synchronisation-revit-methode/</loc>
-		<lastmod>2026-08-26T09:37:25+00:00</lastmod>
+		<lastmod>2026-09-02T14:07:35+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://bimandbeam.com/2025/04/avenir-bim-manager-competences-cles/</loc>
-		<lastmod>2026-08-26T09:37:25+00:00</lastmod>
+		<lastmod>2026-09-02T14:07:35+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://bimandbeam.com/2025/04/creer-fichier-ids-valider-ifc/</loc>
-		<lastmod>2026-08-26T09:37:25+00:00</lastmod>
+		<lastmod>2026-09-02T14:07:35+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://bimandbeam.com/2025/04/cybersecurite-bim-cloud-donnees-projet/</loc>
-		<lastmod>2026-08-26T09:37:25+00:00</lastmod>
+		<lastmod>2026-09-02T14:07:35+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://bimandbeam.com/2025/04/ia-bim-architecture/</loc>
-		<lastmod>2026-08-26T09:37:25+00:00</lastmod>
+		<lastmod>2026-09-02T14:07:35+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://bimandbeam.com/2025/04/ia-redaction-documents-bim-charte-convention-cctp/</loc>
-		<lastmod>2026-08-26T09:37:25+00:00</lastmod>
+		<lastmod>2026-09-02T14:07:35+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://bimandbeam.com/2025/04/ids-bim-validation-ifc/</loc>
-		<lastmod>2026-08-26T09:37:25+00:00</lastmod>
+		<lastmod>2026-09-02T14:07:35+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://bimandbeam.com/2025/04/integration-bim-gis-le-futur-de-la-planification-urbaine/</loc>
-		<lastmod>2026-08-26T09:37:25+00:00</lastmod>
+		<lastmod>2026-09-02T14:07:35+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://bimandbeam.com/2025/04/iso-19650-pme-tpe-guide-implementation-simplifie/</loc>
-		<lastmod>2026-08-26T09:37:25+00:00</lastmod>
+		<lastmod>2026-09-02T14:07:35+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://bimandbeam.com/2025/04/jumeau-numerique-bim/</loc>
-		<lastmod>2026-08-26T09:37:25+00:00</lastmod>
+		<lastmod>2026-09-02T14:07:35+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://bimandbeam.com/2025/04/probleme-multiples-cde-iso19650/</loc>
-		<lastmod>2026-08-26T09:37:25+00:00</lastmod>
+		<lastmod>2026-09-02T14:07:35+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://bimandbeam.com/2025/04/revit-sync-analyzer/</loc>
-		<lastmod>2026-08-26T09:37:25+00:00</lastmod>
+		<lastmod>2026-09-02T14:07:35+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://bimandbeam.com/2025/05/cout-modele-revit-malade-optimisation-performance/</loc>
-		<lastmod>2026-08-26T09:37:25+00:00</lastmod>
+		<lastmod>2026-09-02T14:07:35+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://bimandbeam.com/2025/07/autodesk-new-cloud-data-centers/</loc>
-		<lastmod>2026-08-26T09:37:25+00:00</lastmod>
+		<lastmod>2026-09-02T14:07:35+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://bimandbeam.com/2025/07/global-bim-arket-is-exploding/</loc>
-		<lastmod>2026-08-26T09:37:25+00:00</lastmod>
+		<lastmod>2026-09-02T14:07:35+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://bimandbeam.com/2025/07/validate-ifc-file-against-ids/</loc>
-		<lastmod>2026-08-26T09:37:25+00:00</lastmod>
+		<lastmod>2026-09-02T14:07:35+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://bimandbeam.com/2025/09/validate-ifc-georeferencing-with-ids/</loc>
-		<lastmod>2026-08-26T09:37:25+00:00</lastmod>
+		<lastmod>2026-09-02T14:07:35+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://bimandbeam.com/2025/10/autodesk-is-down-revit-impacted-by-the-massive-aws-outage/</loc>
-		<lastmod>2026-08-26T09:37:25+00:00</lastmod>
+		<lastmod>2026-09-02T14:07:35+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://bimandbeam.com/2026/08/data-center-tiers-explained/</loc>
-		<lastmod>2026-08-26T09:37:25+00:00</lastmod>
+		<lastmod>2026-09-02T13:43:17+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://bimandbeam.com/2026/08/what-is-pue-data-center-efficiency-explained/</loc>
-		<lastmod>2026-08-26T09:37:25+00:00</lastmod>
+		<lastmod>2026-09-02T13:43:17+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://bimandbeam.com/2026/09/data-center-architect-salary-2026/</loc>
+		<lastmod>2026-09-02T13:43:17+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://bimandbeam.com/2026/09/what-is-a-data-center-architect/</loc>
+		<lastmod>2026-09-02T13:43:17+00:00</lastmod>
 	</url>
 </urlset>
 <!-- XML Sitemap generated by scripts/generate_sitemaps.py -->
