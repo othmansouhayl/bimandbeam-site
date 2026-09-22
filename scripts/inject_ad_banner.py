@@ -27,7 +27,7 @@ def banner_html(prefix: str) -> str:
         f'aria-label="BIM Maturity — Advertisement, opens in new tab">'
         f'<span class="bb-ad-tag">Ad</span>'
         f'<img src="{img_src}" alt="BIM Maturity — assess and improve your organization’s BIM maturity" '
-        f'width="560" height="228" loading="lazy"/>'
+        f'width="800" height="326" loading="lazy"/>'
         f'</a>'
         f'<button class="bb-ad-close" id="bbAdClose" aria-label="Close advertisement">&times;</button>'
         f'</div>'
