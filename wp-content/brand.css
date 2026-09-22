@@ -141,3 +141,17 @@ img{ opacity:0.96; }
 .bb-post-cta-text h4{font-family:'Space Grotesk',sans-serif;color:#fff;font-size:17px;margin:0 0 8px;}
 .bb-post-cta-text p{color:#a8a8a8;font-size:13.5px;margin:0 0 14px;line-height:1.6;}
 .bb-post-cta-btn{font-family:'Inter',sans-serif;font-weight:600;font-size:13px;padding:14px 20px;border-radius:6px;text-decoration:none;display:inline-block;background:#22C55E;color:#0a0a0a !important;}
+
+/* Site-wide ad banner, shared markup injected on every page above bb-nav */
+.bb-ad-banner-wrap{position:relative;background:#0d0d0d;border-bottom:0.5px solid #1e1e1e;}
+.bb-ad-banner{position:relative;display:flex;align-items:center;justify-content:center;gap:14px;max-width:1100px;margin:0 auto;padding:10px 48px;text-decoration:none;}
+@media (hover:hover){ .bb-ad-banner:hover{ background:#111; } }
+.bb-ad-tag{font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:1px;text-transform:uppercase;color:#22C55E;border:0.5px solid #22C55E;border-radius:4px;padding:2px 6px;flex-shrink:0;}
+.bb-ad-banner img{height:52px;width:auto;border-radius:4px;display:block;opacity:1;}
+.bb-ad-close{position:absolute;top:50%;right:14px;transform:translateY(-50%);background:none;border:none;color:#777;font-size:20px;line-height:1;cursor:pointer;padding:8px;}
+.bb-ad-close:hover{color:#fff;}
+@media (max-width:600px){
+  .bb-ad-banner{padding:8px 40px;gap:10px;}
+  .bb-ad-banner img{height:38px;}
+  .bb-ad-tag{display:none;}
+}
