@@ -46,6 +46,8 @@ def main():
     placed_hero, placed_nav, placed_header, removed_old, missed = 0, 0, 0, 0, 0
 
     for f in files:
+        if f.relative_to(ROOT) == Path("book/index.html"):
+            continue  # conversion page: no competing ad
         text = f.read_text(encoding="utf-8")
 
         if OLD_BANNER_RE.search(text):
