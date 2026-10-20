@@ -36,20 +36,10 @@ body{margin:0;background:#0a0a0a;color:#fff;}
 .bk-intro h1 span{color:#22C55E;}
 .bk-intro p{font-size:17px;line-height:1.7;color:#a8a8a8;margin:0 0 12px;max-width:520px;}
 .bk-intro p.fr{color:#8a8a8a;font-size:15.5px;}
-.bk-cols{max-width:980px;margin:0 auto;padding:30px 24px 70px;display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:26px;}
-.bk-card{background:#0d0d0d;border:.5px solid #1e1e1e;border-radius:12px;padding:30px;display:flex;flex-direction:column;}
-.bk-card h2{font-family:'Space Grotesk',sans-serif;font-size:22px;margin:0 0 6px;}
-.bk-card .lang{font-family:'JetBrains Mono',monospace;font-size:11px;color:#22C55E;letter-spacing:1px;text-transform:uppercase;margin-bottom:10px;}
-.bk-card p{color:#a8a8a8;font-size:14.5px;line-height:1.7;margin:0 0 16px;}
-.bk-card ul{list-style:none;margin:0 0 20px;padding:0;color:#d4d4d4;font-size:14.5px;line-height:1.55;}
-.bk-card li{padding:7px 0 7px 22px;position:relative;}
-.bk-card li:before{content:"";position:absolute;left:0;top:14px;width:8px;height:8px;border-radius:2px;background:#22C55E;}
-.bk-for{font-size:13px;color:#8f8f8f;margin:0 0 22px;}
-.bk-card .bk-btn{margin-top:auto;}
 .bk-btn{font-family:'Inter',sans-serif;font-weight:600;font-size:15px;padding:15px 26px;border-radius:6px;text-decoration:none;display:inline-block;text-align:center;background:#22C55E;color:#0a0a0a !important;transition:transform .2s ease, box-shadow .2s ease;}
 @media (hover:hover){.bk-btn:hover{transform:translateY(-3px);box-shadow:0 10px 30px rgba(34,197,94,.35);}}
 .bk-btn:active{transform:scale(.97);}
-.bk-hero .bk-btn-row{display:flex;gap:12px;flex-wrap:wrap;margin-top:22px;}
+.bk-btn-row{display:flex;gap:12px;flex-wrap:wrap;margin-top:22px;}
 .bk-btn.outline{background:transparent;border:1.5px solid #22C55E;color:#22C55E !important;}
 .bk-read{max-width:980px;margin:0 auto;padding:0 24px 80px;}
 .bk-read h2{font-family:'Space Grotesk',sans-serif;font-size:24px;margin:0 0 8px;}
@@ -59,6 +49,33 @@ body{margin:0;background:#0a0a0a;color:#fff;}
 @media (hover:hover){.bk-read a:hover{border-color:#22C55E;transform:translateY(-3px);}}
 .bk-author{max-width:980px;margin:0 auto;padding:0 24px 80px;color:#8f8f8f;font-size:14px;line-height:1.7;border-top:.5px solid #1a1a1a;padding-top:40px;}
 .bk-author a{color:#22C55E;}
+.bk-wrap{max-width:980px;margin:0 auto;padding:30px 24px 50px;}
+.bk-wrap h2{font-family:'Space Grotesk',sans-serif;font-size:clamp(24px,3.4vw,32px);line-height:1.2;margin:0 0 14px;}
+.bk-wrap p{color:#a8a8a8;font-size:16px;line-height:1.75;margin:0 0 12px;max-width:760px;}
+.bk-wrap p.fr,.bk-tile p.fr{color:#8a8a8a;font-size:14.5px;}
+.bk-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px;margin-top:22px;}
+.bk-tile{background:#0d0d0d;border:.5px solid #1e1e1e;border-radius:12px;padding:24px;}
+.bk-tile h3{font-family:'Space Grotesk',sans-serif;font-size:18px;margin:0 0 8px;color:#fff;}
+.bk-tile p{font-size:14.5px;line-height:1.65;margin:0 0 10px;}
+.bk-tile p.fr strong{color:#d4d4d4;font-weight:600;}
+.bk-quote{margin:34px 0 0;padding:6px 0 6px 22px;border-left:3px solid #22C55E;font-family:'Space Grotesk',sans-serif;font-size:clamp(19px,2.6vw,24px);line-height:1.45;color:#fff;}
+.bk-quote cite{display:block;font-style:normal;font-family:'JetBrains Mono',monospace;font-size:12px;color:#22C55E;margin-top:10px;}
+.bk-quote .fr{display:block;font-family:'Inter',sans-serif;font-size:14.5px;color:#8a8a8a;margin-top:8px;}
+.bk-rev-track{display:flex;gap:16px;overflow-x:auto;scroll-snap-type:x mandatory;padding:6px 2px 16px;margin-top:20px;scrollbar-width:thin;scrollbar-color:#22C55E #111;}
+.bk-rev{flex:0 0 min(320px,82vw);scroll-snap-align:start;margin:0;background:#0d0d0d;border:.5px solid #1e1e1e;border-radius:12px;padding:22px;display:flex;flex-direction:column;}
+.bk-rev .stars{color:#22C55E;letter-spacing:3px;font-size:17px;margin-bottom:12px;}
+.bk-rev blockquote{margin:0 0 16px;color:#d4d4d4;font-size:14.5px;line-height:1.65;border:0 !important;padding:0;}
+.bk-rev figcaption{margin-top:auto;font-family:'JetBrains Mono',monospace;font-size:12px;color:#777;}
+.bk-wrap p.bk-hint{font-family:'JetBrains Mono',monospace;font-size:12px;color:#666;}
+.bk-faq{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:26px;margin-top:20px;}
+.bk-faq details{background:#0d0d0d;border:.5px solid #1e1e1e;border-radius:10px;padding:16px 20px;margin-bottom:12px;}
+.bk-faq summary{cursor:pointer;font-family:'Space Grotesk',sans-serif;font-size:16px;color:#fff;}
+.bk-faq details[open]{border-color:#22C55E;}
+.bk-faq details p{margin:12px 0 0;font-size:14.5px;}
+.bk-final{text-align:center;}
+.bk-final h2 span{color:#8a8a8a;font-size:.8em;font-weight:500;}
+.bk-final .bk-btn-row{justify-content:center;display:flex;gap:12px;flex-wrap:wrap;margin:20px 0 14px;}
+.bk-final p{margin-left:auto;margin-right:auto;}
 @media (max-width:720px){.bk-hero{padding:50px 24px 30px;}.bk-cover{width:200px;}}
 </style>
 <script type="application/ld+json">
@@ -108,33 +125,77 @@ body{margin:0;background:#0a0a0a;color:#fff;}
 </div>
 </section>
 
-<section class="bk-cols">
-<div class="bk-card">
-<div class="lang">English edition</div>
-<h2>What’s inside</h2>
-<ul>
-<li>The essential vocabulary (MW, PUE, Tier, redundancy) explained without jargon</li>
-<li>The full data center ecosystem — who uses them, who builds them</li>
-<li>How they work inside: power, cooling, structure, security</li>
-<li>Modern data centers: hyperscale, artificial intelligence, sustainability</li>
-<li>A field toolkit: glossary, checklist, mistakes to avoid</li>
-</ul>
-<p class="bk-for">For architects, civil engineers, BIM managers and construction professionals.</p>
-<a class="bk-btn" href="https://www.amazon.com/Inside-Data-Center-Understanding-Professionals-ebook/dp/B0HGZVS19D" target="_blank" rel="noopener">Get the English edition</a>
+<section class="bk-wrap bk-hook">
+<h2>Your first data center brief lands on your desk. Now what?</h2>
+<p>Everyone in the room is throwing around MW, PUE, Tier III, N+1 — and nodding like it’s obvious. This isn’t an electrical engineering manual. It’s the visual crash-course that gets you from zero to genuinely useful in that meeting, without wading through 400 pages of standards documents.</p>
+<p class="fr" lang="fr"><strong>Votre premier dossier data center arrive sur votre bureau. Et maintenant ?</strong> Tout le monde en réunion parle de MW, PUE, Tier III, N+1 — et acquiesce comme si c’était évident. Ce n’est pas un manuel d’ingénierie électrique. C’est le cours accéléré visuel qui vous rend réellement utile dès cette réunion, sans vous noyer dans 400 pages de normes.</p>
+</section>
+
+<section class="bk-wrap">
+<div class="bk-eyebrow">What you’ll find inside · Au programme</div>
+<h2>Five sections. One confident conversation.</h2>
+<div class="bk-grid">
+<div class="bk-tile"><h3>Vocabulary, decoded</h3><p>MW, PUE, Tier, redundancy — the essential terms explained without jargon, so you stop nodding blindly.</p><p class="fr" lang="fr"><strong>Vocabulaire décodé</strong> — MW, PUE, Tier, redondance — les termes essentiels expliqués sans jargon, pour arrêter d’acquiescer à l’aveugle.</p></div>
+<div class="bk-tile"><h3>The full ecosystem</h3><p>Who builds data centers, who operates them, and how the players fit together end to end.</p><p class="fr" lang="fr"><strong>L’écosystème complet</strong> — Qui construit les data centers, qui les exploite, et comment les acteurs s’articulent de bout en bout.</p></div>
+<div class="bk-tile"><h3>What’s inside the walls</h3><p>Power, cooling, structure and security — how a facility actually works, floor by floor.</p><p class="fr" lang="fr"><strong>Ce qu’il y a derrière les murs</strong> — Énergie, refroidissement, structure et sécurité — comment une installation fonctionne vraiment, étage par étage.</p></div>
+<div class="bk-tile"><h3>Modern data centers</h3><p>Hyperscale campuses, AI infrastructure and sustainability — where the industry is heading.</p><p class="fr" lang="fr"><strong>Les data centers modernes</strong> — Campus hyperscale, infrastructure IA et durabilité — là où va l’industrie.</p></div>
+<div class="bk-tile"><h3>Field toolkit</h3><p>A glossary, a project checklist, and the common mistakes to avoid on your first job.</p><p class="fr" lang="fr"><strong>Boîte à outils terrain</strong> — Un glossaire, une checklist projet et les erreurs courantes à éviter dès votre premier chantier.</p></div>
 </div>
-<div class="bk-card" lang="fr">
-<div class="lang">Édition française</div>
-<h2>Ce que contient le livre</h2>
-<ul>
-<li>Le vocabulaire essentiel (MW, PUE, Tier, redondance) expliqué sans jargon</li>
-<li>L’écosystème complet des data centers — qui les utilise, qui les construit</li>
-<li>Comment ils fonctionnent à l’intérieur : énergie, refroidissement, structure, sécurité</li>
-<li>Les data centers modernes : hyperscale, intelligence artificielle, durabilité</li>
-<li>Une boîte à outils terrain : glossaire, checklist, erreurs à éviter</li>
-</ul>
-<p class="bk-for">Pour les architectes, ingénieurs civils, BIM managers et professionnels de la construction.</p>
-<a class="bk-btn" href="https://www.amazon.com/Inside-Data-Center-architectes-professionnels-ebook/dp/B0GY8Y3FDD" target="_blank" rel="noopener">Obtenir l’édition française</a>
+<blockquote class="bk-quote">“Not an electrical engineering manual — a visual guide to walk in prepared.”<cite>— from the introduction</cite><span class="fr" lang="fr">« Pas un manuel d’ingénierie électrique — un guide visuel pour arriver préparé. » — extrait de l’introduction</span></blockquote>
+</section>
+
+<section class="bk-wrap">
+<div class="bk-eyebrow">Who this is for · Pour qui</div>
+<h2>Built for people entering their first data center project</h2>
+<p>Architects, civil engineers, BIM managers and construction professionals approaching a data center project for the first time — or wanting to sharpen their understanding of the subject before the next one.</p>
+<p class="fr" lang="fr">Architectes, ingénieurs civils, BIM managers et professionnels de la construction qui abordent un projet de data center pour la première fois — ou qui veulent affiner leur compréhension avant le suivant.</p>
+<div class="bk-grid">
+<div class="bk-tile"><h3>Architects</h3><p>Speak the engineers’ language in design reviews.</p><p class="fr" lang="fr"><strong>Architectes</strong> — Parlez le langage des ingénieurs en revue de conception.</p></div>
+<div class="bk-tile"><h3>Civil engineers</h3><p>Understand how structure serves power and cooling.</p><p class="fr" lang="fr"><strong>Ingénieurs civils</strong> — Comprenez comment la structure sert l’énergie et le refroidissement.</p></div>
+<div class="bk-tile"><h3>BIM managers</h3><p>Model with context, not just clash detection.</p><p class="fr" lang="fr"><strong>BIM managers</strong> — Modélisez avec du contexte, pas seulement de la détection de conflits.</p></div>
+<div class="bk-tile"><h3>Construction teams</h3><p>Know what “Tier III” actually demands on site.</p><p class="fr" lang="fr"><strong>Équipes de chantier</strong> — Sachez ce que « Tier III » exige réellement sur chantier.</p></div>
 </div>
+</section>
+
+<section class="bk-wrap">
+<div class="bk-eyebrow">Reader reviews · Avis des lecteurs</div>
+<h2>What readers say</h2>
+<div class="bk-rev-track" tabindex="0" role="region" aria-label="Reader reviews, scroll horizontally">
+<figure class="bk-rev"><div class="stars" role="img" aria-label="5 out of 5 stars">★★★★★</div><blockquote lang="en">I thought that I know everything about dc projects, now I realised that I am not ; thanks Suhayl for this book</blockquote><figcaption>buglaverse1</figcaption></figure>
+<figure class="bk-rev"><div class="stars" role="img" aria-label="5 out of 5 stars">★★★★★</div><blockquote lang="en">Simply awesome! I liked the style aslo, this reminds me of the DK Publishing style !</blockquote><figcaption>Anonymous</figcaption></figure>
+<figure class="bk-rev"><div class="stars" role="img" aria-label="5 out of 5 stars">★★★★★</div><blockquote lang="fr">Merci , pour ce prix , cet ebook est vraiment génial 👍</blockquote><figcaption>Sharedsameh</figcaption></figure>
+<figure class="bk-rev"><div class="stars" role="img" aria-label="5 out of 5 stars">★★★★★</div><blockquote lang="fr">Ce livre m'a évité des semaines de recherches éparpillées, mais tu n'a pas parler du bim dedans !</blockquote><figcaption>Anonymous</figcaption></figure>
+<figure class="bk-rev"><div class="stars" role="img" aria-label="5 out of 5 stars">★★★★★</div><blockquote lang="en">I'd been putting off learning the data center vocabulary for months — always seemed like a rabbit hole. This book got me from zero to genuinely useful in a weekend. Clear, visual, no unnecessary jargon. Hoping for a full English edition down the line, but the diagrams alone were worth it</blockquote><figcaption>Anonymous</figcaption></figure>
+<figure class="bk-rev"><div class="stars" role="img" aria-label="5 out of 5 stars">★★★★★</div><blockquote lang="fr">Honnêtement sceptique au départ — je connais déjà bien le sujet techniquement. Mais l'angle 'ce que ça change pour l'architecte' est rare et bien traité. Je l'ai recommandé à toute mon équipe MEP</blockquote><figcaption>Anonymous</figcaption></figure>
+<figure class="bk-rev"><div class="stars" role="img" aria-label="5 out of 5 stars">★★★★★</div><blockquote lang="fr">J'étudie encore et je me suis toujours senti perdu face au vocabulaire des data centers en stage. Ce livre parle une langue que je comprends, avec des visuels qui restent en tête bien après la lecture</blockquote><figcaption>Anonymous</figcaption></figure>
+</div>
+<p class="bk-hint">← swipe / scroll →</p>
+</section>
+
+<section class="bk-wrap">
+<div class="bk-eyebrow">Good to know · Bon à savoir</div>
+<h2>FAQ</h2>
+<div class="bk-faq">
+<div>
+<details><summary>What format is the book, and how do I read it?</summary><p>It’s a Kindle ebook sold on Amazon. Read it with the free Kindle app on any phone, tablet or computer, or on a Kindle device.</p></details>
+<details><summary>Do I get both the French and English editions?</summary><p>They’re two separate Amazon listings — pick the edition you want above. Each one is the same visual guide, fully written in that language.</p></details>
+<details><summary>I’m not an engineer — will I understand it?</summary><p>Yes — that’s exactly who it’s written for. No jargon is assumed; every term is introduced before it’s used.</p></details>
+</div>
+<div lang="fr">
+<details><summary>Quel est le format du livre, et comment le lire ?</summary><p>C’est un ebook Kindle vendu sur Amazon. Lisez-le avec l’application Kindle gratuite sur téléphone, tablette ou ordinateur, ou sur une liseuse Kindle.</p></details>
+<details><summary>Ai-je les éditions française et anglaise ?</summary><p>Ce sont deux fiches Amazon distinctes — choisissez votre édition ci-dessus. Chaque édition est le même guide visuel, entièrement rédigé dans sa langue.</p></details>
+<details><summary>Je ne suis pas ingénieur — vais-je comprendre ?</summary><p>Oui — c’est exactement pour vous. Aucun jargon n’est supposé ; chaque terme est introduit avant d’être utilisé.</p></details>
+</div>
+</div>
+</section>
+
+<section class="bk-wrap bk-final">
+<h2>Walk into your next meeting prepared<br/><span lang="fr">Arrivez préparé à votre prochaine réunion</span></h2>
+<div class="bk-btn-row">
+<a class="bk-btn" href="https://www.amazon.com/Inside-Data-Center-Understanding-Professionals-ebook/dp/B0HGZVS19D" target="_blank" rel="noopener">Read in English — Amazon</a>
+<a class="bk-btn outline" lang="fr" href="https://www.amazon.com/Inside-Data-Center-architectes-professionnels-ebook/dp/B0GY8Y3FDD" target="_blank" rel="noopener">Lire en français — Amazon</a>
+</div>
+<p class="bk-hint">Preview the first pages directly on Amazon · Consultez les premières pages directement sur Amazon</p>
 </section>
 
 <section class="bk-read">
